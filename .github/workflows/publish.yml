@@ -11,7 +11,7 @@ jobs:
     name: Build and Push
     strategy:
       matrix:
-        os: [ubuntu-latest]
+        os: ubuntu-latest
         node-version: 14.8
     steps:
       - name: git-checkout
